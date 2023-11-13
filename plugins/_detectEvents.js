@@ -1,6 +1,6 @@
 // Creditos del codigo a @Gatito-kw //
 
-/* GitHub: https://github.com/Gatito-kw */
+/* GitHub: https://github.com/ito-kw */
 
 /* Bot: https://github.com/Gatito-kw/nekobot-md */
 
