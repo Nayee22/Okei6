@@ -1539,14 +1539,14 @@ let date = d.toLocaleDateString('es', { day: 'numeric', month: 'long', year: 'nu
 
 global.dfail = (type, m, conn) => {
   const msg = {
-    rowner: '*_⚠️ 𝐀𝐋𝐄𝐑𝐓𝐀 ⚠️  este comando solo puede ser utilizado por el creador del bot ezequiel__*',
-    owner: '*_⚠️ 𝐀𝐋𝐄𝐑𝐓𝐀 ⚠️  este comandós solo pueder utilizado por el creador del bot ezequiel_*',
+    rowner: '*🛑 ESTE COMANDO SOLO PUEDE SER UTILIZADO POR MI DESARROLLADOR*',
+    owner: '*🛑 ESTE COMANDO SOLO PUEDE SER UTILIZADO POR MI DESARROLADOR*',
     mods: '*[ ⚠️ 𝐀𝐋𝐄𝐑𝐓𝐀 ⚠️ ] 𝙴𝚂𝚃𝙴 𝙲𝙾𝙼𝙰𝙽𝙳𝙾 𝚂𝙾𝙻𝙾 𝙿𝚄𝙴𝙳𝙴 𝚂𝙴𝚁 𝚄𝚃𝙸𝙻𝙸𝚉𝙰𝙳𝙾 𝙿𝙾𝚁 𝙼𝙾𝙳𝙴𝚁𝙰𝙳𝙾𝚁𝙴𝚂 𝚈 𝙴𝙻/𝙻𝙰 𝙿𝚁𝙾𝙿𝙸𝙴𝚃𝙰𝚁𝙸𝙾/𝙰 (𝙾𝚆𝙽𝙴𝚁) 𝙳𝙴𝙻 𝙱𝙾𝚃*',
     premium: '*[ ⚠️ 𝐀𝐋𝐄𝐑𝐓𝐀 ⚠️ ] 𝙴𝚂𝚃𝙴 𝙲𝙾𝙼𝙰𝙽𝙳𝙾 𝚂𝙾𝙻𝙾 𝙿𝚄𝙴𝙳𝙴 𝚂𝙴𝚁 𝚄𝚃𝙸𝙻𝙸𝚉𝙰𝙳𝙾 𝙿𝙾𝚁 𝚄𝚂𝚄𝙰𝚁𝙸𝙾𝚂 𝙿𝚁𝙴𝙼𝙸𝚄𝙼 𝚈 𝙴𝙻/𝙻𝙰 𝙿𝚁𝙾𝙿𝙸𝙴𝚃𝙰𝚁𝙸𝙾/𝙰 (𝙾𝚆𝙽𝙴𝚁) 𝙳𝙴𝙻 𝙱𝙾𝚃*',
-    group: '*_⚠️ 𝐀𝐋𝐄𝐑𝐓𝐀 ⚠️ este comando solo puedes ser utilizado al privado_*',
+    group: '*_🛑 𝐀𝐋𝐄𝐑𝐓𝐀 ⚠️ este comando solo puedes ser utilizado al privado_*',
     private: '*[ ⚠️ 𝐀𝐋𝐄𝐑𝐓𝐀 ⚠️ ] 𝙴𝚂𝚃𝙴 𝙲𝙾𝙼𝙰𝙽𝙳𝙾 𝚂𝙾𝙻𝙾 𝙿𝚄𝙴𝙳𝙴 𝚂𝙴𝚁 𝚄𝚃𝙸𝙻𝙸𝚉𝙰𝙳𝙾 𝙴𝙽 𝙲𝙷𝙰𝚃 𝙿𝚁𝙸𝚅𝙰𝙳𝙾 𝙳𝙴𝙻 𝙱𝙾𝚃*',
-    admin: '*_⚠️ 𝐀𝐋𝐄𝐑𝐓𝐀 ⚠️ este comando solo pueder ser utilizado por administradores del grupo_*',
-    botAdmin: '*_⚠️ 𝐀𝐋𝐄𝐑𝐓𝐀 ⚠️  para poder usar este comando es necesario que el bot sea administrador_*',
+    admin: '*🛑 ESTE COMANDO SOLO PUEDE SER UTILIZADO POR ADMINISTRADORES DEL GRUPO*',
+    botAdmin: '*🛑 PARA PODER USAR ESTE COMANDO ES NECESARIO QUE EL BOT SEA ADMINISTRADOR*',
     unreg: '*[ 🛑 𝐇𝐄𝐘!! 𝐀𝐋𝐓𝐎, 𝐍𝐎 𝐄𝐒𝐓𝐀𝐒 𝐑𝐄𝐆𝐈𝐒𝐓𝐑𝐀𝐃𝐎 🛑 ]*\n\n*—◉ 𝙿𝙰𝚁𝙰 𝚄𝚂𝙰𝚁 𝙴𝚂𝚃𝙴 𝙲𝙾𝙼𝙰𝙽𝙳𝙾 𝙳𝙴𝙱𝙴𝚂 𝚁𝙴𝙶𝙸𝚂𝚃𝚁𝙰𝚁𝚃𝙴, 𝚄𝚂𝙰 𝙴𝙻 𝙲𝙾𝙼𝙰𝙽𝙳𝙾*\n*➣ #verificar nombre.edad*',
     restrict: '*[ ⚠️ 𝐀𝐋𝐄𝐑𝐓𝐀 ⚠️ ] 𝙴𝚂𝚃𝙴 𝙲𝙾𝙼𝙰𝙽𝙳𝙾 𝙴𝚂𝚃𝙰 𝚁𝙴𝚂𝚃𝚁𝙸𝙽𝙶𝙸𝙳𝙾/𝙳𝙴𝚂𝙰𝙲𝚃𝙸𝚅𝙰𝙳𝙾 𝙿𝙾𝚁 𝙳𝙴𝚂𝙸𝙲𝙸𝙾𝙽 𝙳𝙴𝙻 𝙿𝚁𝙾𝙿𝙸𝙴𝚃𝙰𝚁𝙸𝙾/𝙰 (𝙾𝚆𝙽𝙴𝚁) 𝙳𝙴𝙻 𝙱𝙾𝚃*',
   }[type];
