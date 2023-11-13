@@ -22,7 +22,7 @@ const handler = async (m, {conn, usedPrefix, usedPrefix: _p, __dirname, text, is
     const doc = ['pdf', 'zip', 'vnd.openxmlformats-officedocument.presentationml.presentation', 'vnd.openxmlformats-officedocument.spreadsheetml.sheet', 'vnd.openxmlformats-officedocument.wordprocessingml.document'];
     const document = doc[Math.floor(Math.random() * doc.length)];
     const str = `┏━━━━━━━━━━━━━━━━━━
-┣ 🚫🤚🏼 Hey alto si deseas ver mi menu\nmanda el siguiente comando .menucompleto\nrecuerda si tbn quieres un bot no dudes\n en comunicarte con mi creador we.me/51907913096
+┣ 🚫🤚🏼 Hey alto si deseas ver mi menu\nmanda el siguiente comando .menucompleto\nrecuerda si tbn quieres un bot no dudes\nen comunicarte con mi creador we.me/51907913096
 ┗━━━━━━━━━━━━━━━━━━┛
  `.trim();
     if (m.isGroup) {
