@@ -55,7 +55,7 @@ const handler = async (m, { conn, usedPrefix }) => {
   ];
   const document = doc[Math.floor(Math.random() * doc.length)];
   const Message = {
-    document: { url: `https://github.com/HACHEJOTA/Hachiko-Bot-MD` },
+    document: { url: `https://instagram.com/jxtxn17` },
     mimetype: `application/${document}`,
     fileName: `𝐇𝐚𝐜𝐡𝐢𝐤𝐨-𝐁𝐨𝐭-𝐌𝐃`,
     fileLength: 99999999999999,
