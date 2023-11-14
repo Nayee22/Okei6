@@ -5,7 +5,7 @@ function handler(m, { groupMetadata }) {
     let b
     do b = ps.getRandom()
     while (b === a)
-    m.reply(`${toM(a)} ❤️ ${toM(b)}\nCongratulations 💖🍻`, null, {
+    m.reply(`${toM(a)} ❤️ ${toM(b)}\nfelicidades ahora son la nueva pareja amorosa del grupo 💖🍻`, null, {
         mentions: [a, b]
     })
 }
